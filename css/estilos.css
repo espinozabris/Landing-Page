@@ -1,0 +1,207 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: "Comic Neue", cursive;
+  font-weight: 400;
+ 	font-style: normal;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: rgb(223,202,208);
+	background: linear-gradient(90deg, rgba(223,202,208,1) 0%, rgba(195,133,203,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+header{
+	background-color: rgba(255, 99, 71, 0.4);
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+nav ul{
+	display: flex;
+	float: left;
+}
+
+nav ul li{
+	margin-left: 25px;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#inicio{
+	background-image: url(../img/img1.png);
+	height: 200vh;
+	background-attachment: fixed;
+}
+
+
+
+
+.container{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	background-color: rgba(188, 140, 234, 0.4);
+	height: 200vh;
+	color: #fff;
+
+}
+
+#acerca-de{
+	background-image: url(../img/img2.png);
+	height: 200vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caja{
+	width: 400px;
+	height: 500px;
+	background-color: rgba(237, 217, 227, 0.51);
+	border-radius: 20px;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5em;
+	margin-left: 35px;
+}
+
+.cajas{
+	display: flex;
+}
+
+
+
+.imge{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.imge img{
+	width: 50%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+button{
+	width: 60%;
+	padding: 10px;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.img1{
+	float: left;
+}
+
+.img2{
+	float: right;
+}
+
+#servicios{
+	background-image: url(../img/img3.png);
+	height: 200vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.cajas2{
+	display: flex;
+}
+
+.caja2{
+	width: 400px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.51);
+	border-radius: 20px;
+	color: #fff;
+	box-shadow: 10px 5px 20px #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5em;
+	margin-left: 35px;
+}
+
+.cajas2 button{
+	background-color: #B951F9;
+	box-shadow: 10px 5px 20px #F9EF51;
+}
+
+.precio{
+		box-shadow: 10px 5px 20px #F96051;
+		text-transform: uppercase;
+}
+#contacto{
+	background-image: url(../img/img4.jpg);
+	height: 200vh;
+	background-attachment: fixed;
+}
+
+.container-contact{
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	border-radius: 6px;
+	box-shadow: 5px 5px 30px;
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(2px);
+	display: flex;
+	flex-direction: column;
+}
+
+form{
+	width: 80%;
+	margin: 20px auto;
+
+}
+form input{
+	width: 80%;
+	background-color: rgba(188, 140, 234, 0.4);
+	color: #fff;
+	padding: 5px 2px;
+}
+
+textarea{
+	background-color: rgba(188, 140, 234, 0.4);
+	color: #fff;
+	padding: 5px 2px;
+	border-radius: 5px;
+	resize: none;
+}
+
+form input[type="submit"]{
+	width: 100%;
+	color: #fff;
+	background-color: skyblue;
+	padding: 5px auto;
+}
+
+form input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: darkblue;
+}
+
+.banner{
+	background-image: url(../img/banner.jpg);
+	height: 50vh;
+}
+
+.footer{
+	margin-top: 300px;
+}
